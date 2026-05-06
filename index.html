@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>东莞市小时汽车租赁有限公司</title>
+    <meta name="description" content="东莞市小时汽车租赁有限公司 - 专业汽车租赁服务">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+            color: #e0e0e0;
+            min-height: 100vh;
+            line-height: 1.8;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        header {
+            text-align: center;
+            padding: 80px 0 40px;
+        }
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            margin: 0 auto 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+            color: white;
+            font-weight: bold;
+            box-shadow: 0 8px 32px rgba(102, 126, 234, 0.4);
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: #ffffff;
+            margin-bottom: 12px;
+        }
+        .subtitle {
+            font-size: 1.2rem;
+            color: #a0a0c0;
+            margin-bottom: 8px;
+        }
+        .email {
+            color: #667eea;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+        .email:hover { text-decoration: underline; }
+        section {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            padding: 32px;
+            margin-bottom: 24px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        section:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+        }
+        h2 {
+            font-size: 1.5rem;
+            color: #667eea;
+            margin-bottom: 20px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid rgba(102, 126, 234, 0.3);
+        }
+        .info-item {
+            padding: 12px 0;
+            display: flex;
+            align-items: flex-start;
+        }
+        .info-label {
+            color: #8888aa;
+            min-width: 100px;
+            flex-shrink: 0;
+        }
+        .info-value { color: #d0d0e0; }
+        .timeline-item {
+            padding: 16px 0;
+            border-left: 3px solid #667eea;
+            padding-left: 20px;
+            margin-left: 8px;
+            position: relative;
+        }
+        .timeline-item::before {
+            content: '';
+            width: 12px;
+            height: 12px;
+            background: #667eea;
+            border-radius: 50%;
+            position: absolute;
+            left: -7.5px;
+            top: 22px;
+        }
+        .timeline-title {
+            font-size: 1.15rem;
+            color: #ffffff;
+            margin-bottom: 4px;
+        }
+        .timeline-sub { color: #8888aa; font-size: 0.95rem; }
+        .timeline-desc { color: #a0a0b0; margin-top: 8px; }
+        .tag {
+            display: inline-block;
+            background: rgba(102, 126, 234, 0.2);
+            color: #667eea;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            margin: 4px 4px 4px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            color: #666680;
+            font-size: 0.9rem;
+        }
+        .status-badge {
+            display: inline-block;
+            background: #1a472a;
+            color: #4ade80;
+            padding: 4px 14px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            margin-top: 12px;
+        }
+        @media (max-width: 600px) {
+            h1 { font-size: 1.8rem; }
+            .container { padding: 20px 16px; }
+            section { padding: 24px 20px; }
+            header { padding: 50px 0 30px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="avatar">小</div>
+            <h1>东莞市小时汽车租赁有限公司</h1>
+            <p class="subtitle">专业汽车租赁服务</p>
+            <span class="status-badge">🟢 网站已上线</span>
+        </header>
+
+        <section>
+            <h2>🏢 公司简介</h2>
+            <div class="info-item">
+                <span class="info-label">公司名称</span>
+                <span class="info-value">东莞市小时汽车租赁有限公司</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">域名</span>
+                <span class="info-value">shikaijun.online</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">所在地</span>
+                <span class="info-value">中国东莞</span>
+            </div>
+        </section>
+
+        <section>
+            <h2>🚗 服务项目</h2>
+            <div class="timeline-item">
+                <div class="timeline-title">汽车租赁服务</div>
+                <div class="timeline-sub">专业可靠</div>
+                <div class="timeline-desc">提供多种车型选择，满足不同需求</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-title">商务用车服务</div>
+                <div class="timeline-sub">高端商务</div>
+                <div class="timeline-desc">为企业客户提供专业的商务用车解决方案</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>🛠️ 服务优势</h2>
+            <div>
+                <span class="tag">车型丰富</span>
+                <span class="tag">价格透明</span>
+                <span class="tag">服务专业</span>
+                <span class="tag">手续简便</span>
+                <span class="tag">24小时客服</span>
+            </div>
+        </section>
+
+        <footer>
+            <p>© 2026 东莞市小时汽车租赁有限公司 · shikaijun.online · All Rights Reserved</p>
+        </footer>
+    </div>
+</body>
+</html>
